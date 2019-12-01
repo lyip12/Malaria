@@ -1,0 +1,203 @@
+/* BODY */
+
+body{
+    padding: 150px;
+}
+
+
+/* TEXT */
+
+h1.bigtext {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+h5 {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+}
+
+b{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: 700;
+}
+
+p.smalltext{
+    color: #FF5D5D;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: left;
+}
+
+p.smallertext{
+    color: white;
+    font-size: 8px;
+    font-weight: 300;
+    text-align: left;
+}
+
+p.t{
+    margin-top: -300px;
+    height: 1px
+        z-index: 1000;
+    color: #FF5D5D;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: left;
+}
+
+p.wherr{
+    font-size: 10px;
+    padding: 30px;
+}
+
+/* IMAGES */
+
+img.icon{
+    width: 80%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+/* DIVS + FORMAT STUFF */
+
+
+.red{
+    margin-top: 2px;
+    margin-bottom: 15px;
+    height: 2px;
+    background: #FF3E63; 
+}
+
+.blank100{
+    height: 100px;
+}
+
+.blank200{
+    height: 200px;
+}
+
+.blank25{
+    height: 25px;
+}
+
+.lastcol{
+    padding-left: 30px;
+    height:100%;
+    margin-right:-50px;
+}
+
+a.hyprtxt{
+    color: crimson;
+    font-weight: 700;
+}
+
+
+
+a.drop {
+    font-family: 'Roboto', sans-serif;
+    color: #FF5D5D;
+    font-size: 12px;
+    font-weight: 700;
+    margin: 10px;
+}
+
+a.btn{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    border: 0px;
+    color:white;
+    background:#FFC66C;
+}
+
+a.btn-change{
+    -webkit-transition: all 0.1s ease-in-out;
+}
+a.btn-change:hover{
+    -webkit-transform: scale(1.1);
+    background: #FF5D5D;
+    color: white;
+}
+
+th{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+td{
+    padding-right: 40px;
+    color: rosybrown;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+#righthalf{
+    padding-left: 50%;
+}
+
+.right{
+    text-align-last: right;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 70%;
+    margin: auto;
+}
+
+/* YOUR CSS STYLES */
+
+.svg-container {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%; /* aspect ratio */
+    vertical-align: top;
+    overflow: hidden;
+}
+.svg-content-responsive {
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+
+.containera {
+    align-items: flex-end;
+    display: flex;
+    justify-content: center;
+}
+
+.node circle {
+    fill: #FF5D5D;
+    stroke: #FF5D5D;
+    stroke-width: 3px;
+}
+
+.node text {
+    color: #FF5D5D;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: left;
+}
+
+.link {
+    fill: none;
+    stroke: #FF5D5D;
+    stroke-width: 2px;
+}
+
+#responsive-image {  
+    width: 90%;  height: auto; 
+} 
